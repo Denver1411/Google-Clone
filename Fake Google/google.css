@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Roboto", sans-serif; */
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+}
+.apps, .labs{
+    width: 1.7rem;
+    height: auto;
+    border-radius: 50%;
+ 
+}
+.apps:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1); 
+    
+}
+.labs:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1); 
+ 
+}
+nav .first{
+    display: flex;
+    align-items: center;
+    font-weight: 350;
+    font-size: 13px;
+    justify-content: flex-end;
+    
+}
+.user{
+    margin: 0;
+    padding: 0;
+    background: #7B1FA2;
+    
+    padding: 17.5px 20px;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(.6);
+}
+.user p{
+    color: white;
+    font-size: 20px;
+    font-weight: 350;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transform: scale(1.5);
+    
+}
+
+nav .first .content{
+    display: flex;
+    gap: 1.1rem;
+    align-items: center;
+    cursor: pointer;
+}
+nav .first .content p:hover{
+    text-decoration: underline;
+}
+.user:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1); 
+    text-decoration: none;
+}
+.sec1{
+   height: 40vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.sec1 .content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1.7rem;
+}
+p{
+    margin: 0;
+   padding: 0;
+}
+.google{
+    font-size: 5rem;
+    font-weight: 500;
+    letter-spacing: -11px;
+}
+.blue{
+    color: #4285F4;
+}
+.red{
+    color: #EA4335;
+}
+.yellow{
+    color: #FBBC05;
+}
+.green{
+    color: #34A853;
+}
+.search{
+    width: 32rem;
+    padding: .9rem 2rem;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+.una{
+    display: flex;
+    gap: 2.5rem;
+}
+.una p{
+    font-size: 14.5px;
+}
+.huli{
+    display: flex;
+    gap: .8rem;
+}
+.huli p{
+    font-size: 13.5px;
+    color: blue;
+}
+.huli p:first-child{
+    font-weight: 350;
+    color: black;
+}
+
